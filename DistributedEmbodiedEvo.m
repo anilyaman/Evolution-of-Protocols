@@ -1,4 +1,4 @@
-function result = DistributedEmbodiedEvo(settings, rnd_seed)
+function result = DistributedEvo(settings, rnd_seed)
 tic;
 rng(rnd_seed);
 
