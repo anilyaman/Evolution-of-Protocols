@@ -5,6 +5,6 @@ parfor i=1:28
     rng(i*100);
     settings2 = settings;
     settings2.initialAgents = settings.initialAgents{i};
-    results{i} = DistributedEmbodiedEvo(settings2, i*100);
+    results{i} = DistributedEvo(settings2, i*100);
 end
 
